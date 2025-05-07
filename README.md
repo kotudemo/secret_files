@@ -1,1 +1,1 @@
-This flake brings zapret binaries to nixos 
+This flake brings zapret binaries to NixOS 
