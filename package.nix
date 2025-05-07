@@ -31,14 +31,14 @@ stdenv.mkDerivation {
     runHook preInstall
   
     mkdir $out
-    cp -v -a files/fake/* $out/
+    cp -r -a files/fake/* $out/
 
     runHook postInstall
   '';
 
   meta = {
     description = "binaries from bol-van/zapret repository";
-    homepage = "https://www.github/bol-van/zapret";
+    homepage = "https://www.github.com/bol-van/zapret";
     license = lib.licenses.mit;
     maintainers = with lib.maintainers; [ s0me1newithhand7s ]; # aka hand7s
   };
