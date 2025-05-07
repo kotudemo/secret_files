@@ -1,6 +1,6 @@
 This flake brings zapret binaries to NixOS \
 Example configuration:
-```
+```nix
 # flake.nix
 {
   inputs = {
@@ -29,7 +29,7 @@ Example configuration:
   };
 }
 ```
-```
+```nix
 # configuration.nix
 
   environment = {
