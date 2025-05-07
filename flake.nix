@@ -8,11 +8,11 @@
       "x86_64-linux"
       "aarch64-linux"
       "aarch64-darwin"
-    ] (system: f (import nixpkgs { inherit system; }));
+    ] (system: f (import nixpkgs { inherit system; })); // Corrected line
   in {
     formatter = forAllSystems (pkgs: pkgs.alejandra);
     packages = forAllSystems (pkgs: {
-      files = pkgs.callPackage ./package.nix;
+      files = pkgs.callPackage ./package.nix {};
     });
   };
 }
