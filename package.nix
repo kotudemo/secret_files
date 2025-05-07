@@ -7,7 +7,7 @@
   ...
 }:
 stdenv.mkDerivation {
-  name = "zapret.secret_files";
+  name = "zapretFakeFiles-nix;
   version = "git-06042025-e285b24";
 
   src = fetchFromGitHub {
