@@ -7,7 +7,7 @@
   ...
 }:
 stdenv.mkDerivation {
-  name = "zapret.fakeFiles";
+  name = "secret_files";
   version = "git-06042025-e285b24";
 
   src = fetchFromGitHub {
@@ -40,6 +40,6 @@ stdenv.mkDerivation {
     description = "binaries from bol-van/zapret repository";
     homepage = "https://www.github.com/bol-van/zapret";
     license = lib.licenses.mit;
-    maintainers = with lib.maintainers; [ s0me1newithhand7s ]; # aka hand7s
+    maintainers = with lib.maintainers; [ kotudemo ]; 
   };
 }
