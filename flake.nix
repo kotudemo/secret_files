@@ -8,7 +8,7 @@
       "x86_64-linux"
       "aarch64-linux"
       "aarch64-darwin"
-    ] (system: f (import nixpkgs { inherit system; }).legacyPackages.${system});
+    ] (system: f (import nixpkgs { inherit system; }));
   in {
     formatter = forAllSystems (pkgs: pkgs.alejandra);
     packages = forAllSystems (pkgs: {
