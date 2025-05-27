@@ -1,4 +1,4 @@
-This flake brings zapret binaries to NixOS \
+This flake brings [zapret](https://github.com/bol-van/zapret) binaries and Snowy Fluffy zapret configs  to NixOS \
 Example configuration:
 ```nix
 # flake.nix
