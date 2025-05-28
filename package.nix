@@ -13,8 +13,8 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "bol-van";
     repo = "zapret";
-    rev = "e285b24";
-    hash = "sha256-Sg18NhXGHB+XnSRFNHSQo8cGBuT1FVq/SXxYhnOuews=";
+    rev = "99b54069058c50d81964f17b198616885b624a50";
+    hash = "sha256-7UB9r0ah/jDf5q8MabDS288lKpTCvnPbG6vK56bZTz4=";
   };
 
   nativeBuildInputs = [
