@@ -33,7 +33,7 @@ Example configuration:
 # configuration.nix
 
   environment = {
-	  systemPackages = with pkgs; [
+      systemPackages = with pkgs; [
       inputs.secret_files.packages.${pkgs.system}.files
     ];
   };
