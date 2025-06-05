@@ -13,9 +13,9 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "bol-van";
     repo = "zapret";
-    rev = "99b54069058c50d81964f17b198616885b624a50";
-    hash = "sha256-7UB9r0ah/jDf5q8MabDS288lKpTCvnPbG6vK56bZTz4=";
-  };
+    rev = "f3d48b7160f5e257edf0adb302878488d4955095";
+    hash = "sha256-Bzi4JwPxrYnG39wwRais2Gq1m1tPV44DlmrY3JkxXYE=";
+  }
 
   nativeBuildInputs = [
     makeWrapper
