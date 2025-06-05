@@ -15,7 +15,7 @@ stdenv.mkDerivation {
     repo = "zapret";
     rev = "f3d48b7160f5e257edf0adb302878488d4955095";
     hash = "sha256-Bzi4JwPxrYnG39wwRais2Gq1m1tPV44DlmrY3JkxXYE=";
-  }
+  };
 
   nativeBuildInputs = [
     makeWrapper
